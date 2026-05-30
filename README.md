@@ -12,7 +12,7 @@ The intended RL setup operates under partial observability: observations consist
 
 To prepare for this project, I built a small set of RL benchmarks (Frozen Lake and Humanoid-v5) to practice discrete and continuous control, PPO training, and reward analysis.
 
-Repository: [Reinforcement Learning Foundations](https://github.com/uttara-tech/reinforcement-learning-foundations)
+Repository: [RL continuous control](https://github.com/uttara-tech/rl-continuous-control)
 
 ## 🚀 Current Progress (Week 1/4)
 ✅ Frame extraction + timestamp CSV parsing  
