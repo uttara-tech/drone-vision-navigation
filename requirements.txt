@@ -1,0 +1,10 @@
+torch
+torchvision
+torchinfo
+torchsummary
+rosbags
+opencv-python
+numpy 
+matplotlib 
+pathlib
+pandas
