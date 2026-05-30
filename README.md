@@ -14,7 +14,7 @@ To prepare for this project, I built a small set of RL benchmarks (Frozen Lake a
 
 Repository: [RL continuous control](https://github.com/uttara-tech/rl-continuous-control)
 
-## 🚀 Current Progress (Week 1/4)
+## 🚀 Current Progress
 ✅ Frame extraction + timestamp CSV parsing  
 ✅ 640X480 -> 256×256 crops -> 16×16 patches = 256 image tokens   
 ✅ IMU + vision multimodal fusion (MultiModalViT)   
