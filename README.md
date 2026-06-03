@@ -15,6 +15,16 @@ To prepare for this project, I built a small set of RL benchmarks (Frozen Lake a
 Repository: [RL continuous control](https://github.com/uttara-tech/rl-continuous-control)
 
 ## 🚀 Current Progress
+
+### Project status: on hold
+This repository is currently a work in progress. Development is paused while I focus on my master’s thesis and may resume in the future.
+
+###	RL implementation status
+Reinforcement learning is not implemented in this repository. The actor–critic network architectures (actor and critic heads, multimodal backbone) are defined, but there is no simulation environment available, so no RL training loop or policy optimization is performed.
+
+### Multimodal ViT implementation status
+This code implements a multimodal Vision Transformer (image + IMU) trained for future pose prediction on the UZH-FPV dataset. The current setup feeds the full dataset to the model without an explicit train/validation split, so results reflect training error only and do not measure generalization.
+
 ✅ Frame extraction + timestamp CSV parsing  
 ✅ 640X480 -> 256×256 crops -> 16×16 patches = 256 image tokens   
 ✅ IMU + vision multimodal fusion (MultiModalViT)   
