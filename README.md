@@ -1,7 +1,5 @@
 # 🚁 UZH-FPV Drone Vision Transformer + IMU Fusion
 
-**New:** Added an actor–critic RL head on top of the MultiModalViT backbone to enable end-to-end visuomotor control for UZH-FPV drone racing
-
 **Processing RPG Zurich's drone racing dataset for real-world navigation:**
 
 This project builds a multimodal visual-inertial representation model on the UZH-FPV dataset using a transformer, with the goal of reusing that representation to initialize a reinforcement-learning policy for gate-conditioned drone racing control.
