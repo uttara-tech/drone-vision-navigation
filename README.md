@@ -7,8 +7,8 @@ This project builds a multimodal visual-inertial representation model on the UZH
 The intended RL setup operates under partial observability: observations consist of first-person greyscale images and a short history of IMU measurements, rather than the full simulator state. The multimodal transformer encoder produces a latent representation that will serve as input to the actor and critic.
 
 ## Related RL foundation work
-
-To prepare for this project, I built a small set of RL benchmarks (Frozen Lake and Humanoid-v5) to practice discrete and continuous control, PPO training, and reward analysis.
+To prepare for this project, I built a set of continuous control experiments using PPO on environments like Frozen Lake and Humanoid-v5. This helped me practice reward shaping, training stability, and policy evaluation.
+To prepare for this project, I built a set of continuous control experiments using PPO on environments like Humanoid-v5 and discrete control on Frozen Lake environment. This helped me practice reward shaping, training stability, and policy evaluation.
 
 Repository: [RL continuous control](https://github.com/uttara-tech/rl-continuous-control)
 
